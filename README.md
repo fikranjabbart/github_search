@@ -31,3 +31,17 @@ Now, you need to install some additional dependencies to work with GitHub API an
 npm install axios
 ```
 
+Set Up GitHub API Access
+To interact with the GitHub API, you need to generate a personal access token. Follow these steps to create one:
+
+1. Go to your GitHub account settings (https://github.com/settings/profile).
+2. Click on "Developer settings" from the left sidebar.
+3. Choose "Personal access tokens" under "Developer settings."
+4. Click "Generate new token" and follow the instructions. Make sure to grant the "public_repo" scope to have access to public repositories.
+5. Copy the generated token, as you will need it in your React app.
+
+inside the src folder: UserSearch.tsx and UserRepositories.tsx.
+
+```javascript
+const accessToken = 'YOUR_GITHUB_ACCESS_TOKEN'; // Replace with your actual GitHub access token
+```
