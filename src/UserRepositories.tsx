@@ -10,7 +10,7 @@ interface User {
 const UserSearch: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [users, setUsers] = useState<User[]>([]);
-  const accessToken = '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'; // Replace with your actual GitHub access token
+  const accessToken = "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"; // Replace with your actual GitHub access token
 
   const handleSearch = async () => {
     try {
